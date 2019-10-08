@@ -1,5 +1,5 @@
 # The number we will perform the Collatz opperation on.
-n = 20
+n = int(input ("Enter a positive integer : "))
 
 # Keep looping until we reach 1.
 # Note : this assumes the Collatz congecture is true.
@@ -16,4 +16,4 @@ while n != 1:
         n = (3 * n ) + 1
 
 #Finally, print the 1.
-Print (n)
+print (n)
